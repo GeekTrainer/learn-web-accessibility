@@ -1,5 +1,11 @@
 Testing your site in different clients and views is as important as testing it in different browsers. This may not be practical in all scenarios, and it can miss situations where users utilize a browser but may have another disability. Fortunately there are different tools you can use as a developer to get a sense for the accessibility of your page.
 
+## Accessibility testing
+
+If you are already using automated testing for your websites, you can incorporate accessibility tests into your existing flow. [axe-core](https://github.com/dequelabs/axe-core) is the rules engine that powers many other accessibility testing tools, including [Lighthouse](#lighthouse) and Accessibility Insights. It has many integrations with different testing frameworks, and is a good choice for adding automated accessibility testing into integration tests.
+
+However, automated tests can only catch a subset of accessibility issues. [Accessibility Insights for Web](https://accessibilityinsights.io/docs/en/web/overview/) is a browser extension which has a full set of instructions for a manual walk-through of all Web Content Accessibility Guidelines (WCAG) 2.1 criteria. This can help you by providing a checklist to use for testing, and provide you with more experience in ensuring accessibility.
+
 ## Contrast checkers
 
 Someone who is color-blind may not be able to differentiate between different colors, or have difficulty working with colors which are too similar to one another. The World Wide Web Consortium (W3C), the standards organization for the web, established a [rating system for color contrast](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html).

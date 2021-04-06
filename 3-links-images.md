@@ -1,4 +1,4 @@
-Two of the most common components on any webpage are images and links. It stands to reason we should pay attention to these items as they will have a profound impact on the accessibility of the pages we create. Ensuring good link and alt text is one of the first actionable steps you can take to improve your pages for all users.
+Two of the most common components on any webpage are images and links. It stands to reason we should pay attention to these items as they will have a profound impact on the accessibility of the pages we create. Ensuring good link text and alt image text is one of the first actionable steps you can take to improve your pages for all users.
 
 ## The importance of link text
 
@@ -57,7 +57,7 @@ ARIA has numerous uses beyond adding text for screen readers to read for links. 
 
 ## Images
 
-It goes without saying screen readers are unable to automatically read what's in an image. Ensuring images are accessible doesn't take much work - it's what the `alt` attribute is all about. All meaningful images should have an `alt` to describe what they are or the information the image is trying to convey. Images that are purely decorative should have their `alt` attribute set to an empty string: `alt=""`; this prevents screen readers from unnecessarily announcing the decorative image.
+While it is possible for some screen readers to describe an image using artificial intelligence (AI), those tools often lack the context to provide accurate descriptions. Fortunately, ensuring images are accessible doesn't take much work - it's what the `alt` attribute is all about. All meaningful images should have an `alt` to describe what they are or the information the image is trying to convey. Images that are purely decorative should have their `alt` attribute set to an empty string: `alt=""`; this prevents screen readers from unnecessarily announcing the decorative image.
 
 > ![NOTE]
 > As you might expect, search engines are also unable to understand what's in an image. They also use alt text. So once again, ensuring your page is accessible provides additional bonuses!
