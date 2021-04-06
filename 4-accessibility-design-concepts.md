@@ -23,7 +23,7 @@ One of the great features of CSS is it provides complete control over how to dis
 
 Some users are unable to use a mouse or trackpad/touchpad, instead relying on keyboard interactions to tab from one element to the next. It's important for your pages to present your content in logical order so a keyboard user can access each interactive element as they move down a document.
 
-When navigating a page using tab, focus will move from one control to the next based on the order the controls are listed in the HTML source. The controls for your page should be listed in the HTML source in which you expect the page to be navigated, while relying on CSS to layout the page visually to users.
+Focus state is controlled by the user through tabbing and other keyboard shortcuts. If the controls for your page can be tabbed to, they should be listed in the HTML source in the order you expect the page to be navigated, while relying on CSS to layout the page visually to users.
 
 For example, imagine creating a form with two columns. You will want to consider what the natural flow is for someone filling out the form, and list the controls in that order. Then you can use CSS to create the columns, and display the controls in their appropriate locations.
 
